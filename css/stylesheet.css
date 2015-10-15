@@ -1,0 +1,30 @@
+.marco {
+	border: 5px solid black;
+	width: 600px;
+}
+div div{
+	width: 25%;
+	height: 100px;
+}
+.yellow {
+	background: yellow;	
+	float: right;
+}
+.blue {
+	background: blue;
+}
+.red{
+	background: red;
+	width: 100%
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+/*También se puede usar:
+.clearfix{
+	overflow: auto;
+}*/
